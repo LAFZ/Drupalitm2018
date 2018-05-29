@@ -1,0 +1,9 @@
+
+
+drupal_itm_demos.demo_controller_testTheme:
+  path: '/test-theme'
+  defaults:
+    _controller: '\Drupal\drupal_itm_demos\Controller\DemoController::testTheme'
+    _title: 'testTheme'
+  requirements:
+    _permission: 'access content'
