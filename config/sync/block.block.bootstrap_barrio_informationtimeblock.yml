@@ -1,0 +1,20 @@
+uuid: e58c727b-dad8-40bb-99b9-6dff4d4a7153
+langcode: en
+status: true
+dependencies:
+  module:
+    - itm_lab3
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_informationtimeblock
+theme: bootstrap_barrio
+region: footer_first
+weight: 0
+provider: null
+plugin: information_time_block
+settings:
+  id: information_time_block
+  label: 'Information time block'
+  provider: itm_lab3
+  label_display: visible
+visibility: {  }

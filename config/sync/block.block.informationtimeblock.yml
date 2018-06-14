@@ -1,0 +1,20 @@
+uuid: b67fe10b-5fe7-464f-9824-566ea0ce3fe9
+langcode: en
+status: true
+dependencies:
+  module:
+    - itm_lab3
+  theme:
+    - bartik
+id: informationtimeblock
+theme: bartik
+region: footer_first
+weight: 0
+provider: null
+plugin: information_time_block
+settings:
+  id: information_time_block
+  label: 'Information time block'
+  provider: itm_lab3
+  label_display: visible
+visibility: {  }
