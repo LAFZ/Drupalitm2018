@@ -40,10 +40,10 @@
 
 @media all and (min-width: 560px) {
     .node .field--type-image {
-        float: left;
+        float: none;
     }
     [dir="rtl"] .node .field--type-image {
-        float: right;
+        float: none;
     }
     .node .field--type-image+.field--type-image {
         clear: both;
